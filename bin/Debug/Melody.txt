@@ -1,0 +1,6 @@
+Green 2
+Yellow 4
+Yellow 5
+Green 5
+Orange 8
+Blue 10

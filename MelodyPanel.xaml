@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="Lei1.MelodyPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Lei1"
+             mc:Ignorable="d" 
+             d:DesignHeight="233" d:DesignWidth="1370">
+    <Grid>
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="233" Margin="0,0,0,0" VerticalAlignment="Top" Width="1370">
+            <Label Content="Label" Canvas.Left="120" Canvas.Top="10" Height="213" Width="12" Background="#FFF9F1F1"/>
+            <Label x:Name="L" Content="Label" Canvas.Left="10" Canvas.Top="66" Height="78" Width="105" FontSize="36"/>
+        </Canvas>
+
+    </Grid>
+</UserControl>

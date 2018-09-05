@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="Lei1.DrumPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Lei1"
+             mc:Ignorable="d" 
+             d:DesignHeight="466" d:DesignWidth="1370">
+    <Grid>
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="466" Margin="0,0,0,0" VerticalAlignment="Top" Width="1370" Grid.RowSpan="3">
+            <Label x:Name="L2" Content="Label" Canvas.Left="27" Foreground="#FFEA3535" FontSize="22" Canvas.Top="32" RenderTransformOrigin="0.538,0.816" Width="213"/>
+            <Label x:Name="L3" Content="Label" Canvas.Left="10" Canvas.Top="151" Foreground="#FFEA1A1A" FontSize="22" Width="230"/>
+            <Label x:Name="L4" Content="Label" Canvas.Left="1228" Canvas.Top="70" FontSize="22" Background="#FFF00A0A"/>
+            <Label x:Name="L5" Content="Label" Canvas.Left="1211" Canvas.Top="262" FontSize="22" Background="#FFE41717"/>
+        </Canvas>
+    </Grid>
+</UserControl>
